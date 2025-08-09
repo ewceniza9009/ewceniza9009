@@ -4,7 +4,7 @@
 I specialize in **ASP.NET Core MVC, C#, MS SQL Server** and modern frameworks like **Blazor, React, Flutter, and .NET MAUI**.  
 My focus is on **clean architecture**, **automation**, and **AI integration** to solve complex problems and deliver scalable, secure, and intelligent solutions.
 
-## 📦 Commercialized Projects
+## 📦 Commercialized Projects Developed
 
 ### 👨‍💼 Cloud HRIS (2020)  
 Web-based HR & Payroll system with facial recognition, employee self-service portal (Xamarin), and multilingual AI chatbot.  
