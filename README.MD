@@ -2,7 +2,7 @@
 
 💻 **Full Stack Software Developer** with over **𝟭𝟬 years** of experience designing, developing, and deploying robust **Line of Business (LOB)** applications and **ERP solutions**.  
 I specialize in **ASP.NET Core MVC, C#, MS SQL Server** and modern frameworks like **Blazor, React, Flutter, and .NET MAUI**.  
-My focus is on **clean architecture**, **automation**, and **AI integration** to solve complex problems and deliver scalable, secure, and intelligent solutions.
+My focus is on **Full Stack Development**, **automation**, and **AI integration** to solve complex problems and deliver scalable, secure, and intelligent solutions.
 
 ## 📦 Commercialized Projects Developed
 
