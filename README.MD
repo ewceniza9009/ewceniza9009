@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Erwin Wilson Ceniza
+# Hi, I'm Erwin Wilson Ceniza
 
 💻 **Full Stack Software Developer** with over **𝟭𝟬 years** of experience designing, developing, and deploying robust **Line of Business (LOB)** applications and **ERP solutions**.  
 I specialize in **ASP.NET Core MVC, C#, MS SQL Server** and modern frameworks like **Blazor, React, Flutter, and .NET MAUI**.  
