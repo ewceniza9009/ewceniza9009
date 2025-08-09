@@ -10,6 +10,7 @@ My focus is on **Full Stack Development**, **automation**, and **AI integration*
 ### 👨‍💼 Cloud HRIS (2020)  
 Web-based HR & Payroll system with facial recognition, employee self-service portal (Xamarin), and multilingual AI chatbot.  
 **Tech Stack:** ASP.NET Core, MAUI.NET, SQL Server, OpenCV, Telerik, DevExpress, FaceNet
+
   🔗 [GitHub Repo](https://github.com/ewceniza9009/litestaff)
 
 ### 💰 Cloud FMIS (2019)  
@@ -23,6 +24,7 @@ End-to-end loan lifecycle management system.
 ### 🛍 POS System (2023)  
 Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-time sync.  
 **Tech Stack:** Flutter/Dart, ASP.NET Core, SQLite, SignalR
+
   🔗 [GitHub Repo](https://github.com/ewceniza9009/pos24)
 
 ## 🚀 Visionary Initiatives
@@ -31,9 +33,11 @@ Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-tim
   🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
 
 - 📹 **iVA (Intelligent Video Analysis)** — AI-powered object detection, OCR, and contextual analysis for live video feeds.  
+
   🔗 [GitHub Repo](https://github.com/ewceniza9009/iVA)
 
 - 🧠 **Dev2ndBrain** — A "second brain" app for developers, built with **React & ASP.NET**.
+
   🔗 [GitHub Repo](https://github.com/ewceniza9009/Dev2ndBrain)
 
 - 📦 **Warehouse Management System** — Cold storage item tracking with **NextJS, MongoDB, Node.js**.
