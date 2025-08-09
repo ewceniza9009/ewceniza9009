@@ -4,8 +4,6 @@
 I specialize in **ASP.NET Core MVC, C#, MS SQL Server** and modern frameworks like **Blazor, React, Flutter, and .NET MAUI**.  
 My focus is on **clean architecture**, **automation**, and **AI integration** to solve complex problems and deliver scalable, secure, and intelligent solutions.
 
----
-
 ## 📦 Commercialized Projects
 
 ### 👨‍💼 Cloud HRIS (2020)  
@@ -24,8 +22,6 @@ End-to-end loan lifecycle management system.
 Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-time sync.  
 **Tech Stack:** Flutter/Dart, ASP.NET Core, SQLite, SignalR
 
----
-
 ## 🚀 Visionary Initiatives
 
 - 📹 **gstream** — Scalable, low-latency video streaming platform built on **.NET 9, SignalR, Redis, WebRTC, LiveKit**  
@@ -37,8 +33,6 @@ Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-tim
 - 🧠 **Dev2ndBrain** — A "second brain" app for developers, built with **React & ASP.NET**.
 
 - 📦 **Warehouse Management System** — Cold storage item tracking with **NextJS, MongoDB, Node.js**.
-
----
 
 ## 💻 Tech Stack
 
@@ -73,20 +67,14 @@ Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-tim
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
----
-
 ## 📊 GitHub Stats
 ![Erwin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ewceniza9009&show_icons=true&theme=tokyonight)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ewceniza9009&layout=compact&theme=tokyonight)
-
----
 
 ## 🌐 Connect with Me
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge)](https://ewceniza23.bsite.net/)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erwin-wilson-ceniza-1b42ba32/)  
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ewceniza90)  
 📧 **Email:** [erwinwilsonceniza@gmail.com](mailto:erwinwilsonceniza@gmail.com) | [erwinwilsonceniza@yahoo.com](mailto:erwinwilsonceniza@yahoo.com)
-
----
 
 > _“The best thing about a boolean is even if you are wrong, you are only off by a bit.” – Anonymous_
