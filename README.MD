@@ -30,6 +30,7 @@ Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-tim
 ## 🚀 Visionary Initiatives
 
 - 📹 **gstream** — Scalable, low-latency video streaming platform built on **.NET 9, SignalR, Redis, WebRTC, LiveKit**  
+
   🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
 
 - 📹 **iVA (Intelligent Video Analysis)** — AI-powered object detection, OCR, and contextual analysis for live video feeds.  
