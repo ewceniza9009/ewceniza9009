@@ -68,18 +68,21 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 A high-performance, scalable video streaming backend designed for **low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
 **Tech Stack:** ASP.NET MVC Core, EF Core, Tailwind CSS, Javascript(Front End), Redis, WebRTC, LiveKit(Docker Hosted for development), SignalR(For Live Chat), JWT Authentication 
+
 🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
 
 ### 📹 iVA (Intelligent Video Analysis)
 
 An AI-driven service that transforms raw video feeds into **structured, actionable data**. Moving beyond simple surveillance, iVA aims to provide contextual understanding by detecting objects, reading text (OCR), and identifying patterns, enabling applications in retail analytics, industrial automation, and smart security.  
 **Tech Stack:** ASP.NET MVC Core, EF Core, Tailwind CSS, Javascript(Front End), SignalR(For Video Bit Transmission), ONNXRuntime, OpenCVSharp, Gemini API, JWT Authentication 
+
 🔗 [GitHub Repo](https://github.com/ewceniza9009/iVA)
 
 ### 🧠 Dev2ndBrain
 
 A personalized knowledge management system or "Second Brain" built specifically for developers. The goal is to create a central hub for organizing code snippets, architectural notes, terminal commands, and technical documentation, helping to combat information overload and accelerate project development.  
 **Tech Stack:** ASP.NET Core, OctoKit(For Github Gist), Roslyn(For C# SandBox), React + Vite + TypeScript + Tailwind CSS, Babel(For React TSX SandBox), Monaco(For Notes and Snippets Editor), React-Flow(For Graphs), MiniSearch, DexieJS, Zustand(State Management), Electron, Docker(Development Testing)
+
 🔗 [GitHub Repo](https://github.com/ewceniza9009/Dev2ndBrain)
 
 ### 📦 Warehouse Management System
