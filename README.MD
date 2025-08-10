@@ -10,14 +10,16 @@ My focus is on **Full Stack Development**, **automation**, and **AI integration*
 ## 📦 Commercialized Projects Developed
 
 ### 👨‍💼 Cloud HRIS (2020)
-
 A comprehensive, cloud-native Human Resources and Payroll management system designed to automate and streamline core HR operations from recruitment to retirement. The platform enhances security and efficiency with biometric integration and provides employees with modern, accessible tools.
 
-  * **Key Features**:
-      * **Automated Payroll Processing**: Handles complex calculations for salaries, deductions, government contributions, and final pay, ensuring accuracy and compliance.
-      * **Facial Recognition Timekeeping**: Utilizes AI-powered facial recognition for secure, touchless employee check-ins, eliminating buddy-punching and integrating directly with payroll.
-      * **Employee Self-Service (ESS) Portal**: A cross-platform mobile app empowering employees to view payslips, file leaves and overtime, and update their personal information anytime, anywhere.
-      * **Multilingual AI Chatbot**: Provides instant, 24/7 support for common HR queries, reducing the administrative load on HR personnel.
+* **Key Features**:
+    * **Intelligent Payroll & Timekeeping**:
+        * **Automated DTR Calculation**: Seamlessly processes Daily Time Records (DTR) by automatically calculating work hours, undertime, and tardiness based on facial recognition check-ins.
+        * **Dynamic Payroll Engine**: Handles complex calculations for salaries, overtime, night differentials, and holiday pay. It also manages a wide range of deductions (government contributions, loans, cash advances) and other income sources (bonuses, commissions), ensuring accuracy and compliance.
+        * **Integrated Leave Management**: Automatically factors approved leaves (sick, vacation, etc.) into payroll computations.
+    * **Facial Recognition Timekeeping**: Utilizes AI-powered facial recognition for secure, touchless employee check-ins, eliminating buddy-punching and providing real-time data for DTR and payroll.
+    * **Employee Self-Service (ESS) Portal**: A cross-platform mobile app empowering employees to view payslips, file for leaves and overtime, and update their personal information anytime, anywhere.
+    * **Multilingual AI Chatbot**: Provides instant, 24/7 support for common HR queries, reducing the administrative load on HR personnel.
 
 **Tech Stack:** ASP.NET Core, MAUI.NET, SQL Server, OpenCV, Telerik, DevExpress, FaceNet  
 🔗 [GitHub Repo](https://github.com/ewceniza9009/litestaff)
@@ -28,7 +30,7 @@ An integrated Financial Management and Information System built to serve as the 
 
   * **Key Features**:
       * **Core Accounting Modules**: Includes General Ledger, Accounts Payable, and Accounts Receivable to manage day-to-day financial transactions.
-      * **Inventory & Cost Control**: Specifically designed for manufacturing with features for raw material tracking, work-in-progress costing, and finished goods valuation.
+      * **Inventory & Cost Control**: Specifically designed for trading and small sized production with features for robust inventory management & reporting, raw material costing, and finished goods valuation.
       * **Financial Reporting**: Generates critical financial statements like Balance Sheets, Income Statements, and Cash Flow Statements with robust reporting tools.
       * **Sales & Purchasing Workflows**: Manages the entire order-to-cash and procure-to-pay cycles, from purchase orders and sales invoicing to payment processing.
 
@@ -51,7 +53,6 @@ An end-to-end platform that automates the entire loan lifecycle, from initial ap
 A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\&B environments. Its hybrid architecture ensures **uninterrupted sales** even with unstable internet, making it highly reliable for dynamic business operations.
 
   * **Key Features**:
-      * **Offline-First Capability**: Processes transactions seamlessly offline using a local SQLite database and syncs data automatically once a connection is restored.
       * **Real-Time Data Synchronization**: Leverages SignalR for instant updates on sales, inventory levels, and customer data across all terminals and the back-end server.
       * **Inventory Management**: Features real-time stock tracking, low-stock alerts, and purchase order management directly from the POS interface.
       * **Cross-Platform by Design**: Built with Flutter, the front-end runs natively on iOS, Android, Windows, and web from a single codebase.
@@ -65,7 +66,7 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 ### 📹 gstream
 
-A high-performance, scalable video streaming backend designed for **ultra-low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
+A high-performance, scalable video streaming backend designed for **low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
 🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
 
 ### 📹 iVA (Intelligent Video Analysis)
