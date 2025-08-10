@@ -88,6 +88,7 @@ A personalized knowledge management system or "Second Brain" built specifically 
 ### 📦 Warehouse Management System
 
 A specialized WMS focused on the unique challenges of **cold storage logistics**. This project tackles critical requirements like temperature monitoring, batch and expiry date tracking (FEFO), and precise item location management to minimize spoilage and optimize warehouse throughput, using a fast, modern web stack.
+
 **Tech Stack:** React + NextJS + TypeScript + TailWind CSS, ShadCN, MongoDB
 
 ---
