@@ -62,7 +62,7 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 -----
 
-## 🚀 Visionary Initiatives
+## 🚀 Emerging Initiatives
 
 ### 📹 gstream
 
