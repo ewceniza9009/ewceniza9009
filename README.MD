@@ -9,38 +9,78 @@ My focus is on **Full Stack Development**, **automation**, and **AI integration*
 
 ## 📦 Commercialized Projects Developed
 
-### 👨‍💼 Cloud HRIS (2020)  
-Web-based HR & Payroll system with facial recognition, employee self-service portal (Xamarin), and multilingual AI chatbot.  
+### 👨‍💼 Cloud HRIS (2020)
+
+A comprehensive, cloud-native Human Resources and Payroll management system designed to automate and streamline core HR operations from recruitment to retirement. The platform enhances security and efficiency with biometric integration and provides employees with modern, accessible tools.
+
+  * **Key Features**:
+      * **Automated Payroll Processing**: Handles complex calculations for salaries, deductions, government contributions, and final pay, ensuring accuracy and compliance.
+      * **Facial Recognition Timekeeping**: Utilizes AI-powered facial recognition for secure, touchless employee check-ins, eliminating buddy-punching and integrating directly with payroll.
+      * **Employee Self-Service (ESS) Portal**: A cross-platform mobile app empowering employees to view payslips, file leaves and overtime, and update their personal information anytime, anywhere.
+      * **Multilingual AI Chatbot**: Provides instant, 24/7 support for common HR queries, reducing the administrative load on HR personnel.
+
 **Tech Stack:** ASP.NET Core, MAUI.NET, SQL Server, OpenCV, Telerik, DevExpress, FaceNet  
 🔗 [GitHub Repo](https://github.com/ewceniza9009/litestaff)
 
-### 💰 Cloud FMIS (2019)  
-Financial Management platform for trading/manufacturing businesses.  
+### 💰 Cloud FMIS (2019)
+
+An integrated Financial Management and Information System built to serve as the **single source of truth** for trading and manufacturing businesses. It centralizes financial data to provide a real-time, 360-degree view of the company's financial health.
+
+  * **Key Features**:
+      * **Core Accounting Modules**: Includes General Ledger, Accounts Payable, and Accounts Receivable to manage day-to-day financial transactions.
+      * **Inventory & Cost Control**: Specifically designed for manufacturing with features for raw material tracking, work-in-progress costing, and finished goods valuation.
+      * **Financial Reporting**: Generates critical financial statements like Balance Sheets, Income Statements, and Cash Flow Statements with robust reporting tools.
+      * **Sales & Purchasing Workflows**: Manages the entire order-to-cash and procure-to-pay cycles, from purchase orders and sales invoicing to payment processing.
+
 **Tech Stack:** ASP.NET MVC, SQL Server, Telerik Reports
 
-### 🏦 Cloud Loan (2022)  
-End-to-end loan lifecycle management system.  
+### 🏦 Cloud Loan (2022)
+
+An end-to-end platform that automates the entire loan lifecycle, from initial application to final settlement. Built with a modern Blazor front-end, it offers a rich, interactive user interface for loan officers and administrators to manage portfolios with greater efficiency and transparency.
+
+  * **Key Features**:
+      * **Loan Origination & Underwriting**: Streamlines the application process with digital forms, credit scoring, and automated approval workflows.
+      * **Portfolio Management**: Provides a centralized dashboard to monitor active loans, payment schedules, and delinquencies.
+      * **Automated Servicing**: Manages automated billing, payment collection, and amortization schedule calculations.
+      * **Reporting & Analytics**: Delivers detailed insights into portfolio performance, risk exposure, and collection effectiveness.
+
 **Tech Stack:** Blazor.NET, SQL Server, Syncfusion, DevExpress
 
-### 🛍 POS System (2023)  
-Cross-platform POS (Flutter + ASP.NET Core) with offline capability and real-time sync.  
+### 🛍 POS System (2023)
+
+A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\&B environments. Its hybrid architecture ensures **uninterrupted sales** even with unstable internet, making it highly reliable for dynamic business operations.
+
+  * **Key Features**:
+      * **Offline-First Capability**: Processes transactions seamlessly offline using a local SQLite database and syncs data automatically once a connection is restored.
+      * **Real-Time Data Synchronization**: Leverages SignalR for instant updates on sales, inventory levels, and customer data across all terminals and the back-end server.
+      * **Inventory Management**: Features real-time stock tracking, low-stock alerts, and purchase order management directly from the POS interface.
+      * **Cross-Platform by Design**: Built with Flutter, the front-end runs natively on iOS, Android, Windows, and web from a single codebase.
+
 **Tech Stack:** Flutter/Dart, ASP.NET Core, SQLite, SignalR  
 🔗 [GitHub Repo](https://github.com/ewceniza9009/pos24)
 
----
+-----
 
 ## 🚀 Visionary Initiatives
 
-- 📹 **gstream** — Scalable, low-latency video streaming platform built on **.NET 9, SignalR, Redis, WebRTC, LiveKit**  
-  🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
+### 📹 gstream
 
-- 📹 **iVA (Intelligent Video Analysis)** — AI-powered object detection, OCR, and contextual analysis for live video feeds.  
-  🔗 [GitHub Repo](https://github.com/ewceniza9009/iVA)
+A high-performance, scalable video streaming backend designed for **ultra-low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
+🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
 
-- 🧠 **Dev2ndBrain** — A "second brain" app for developers, built with **React & ASP.NET**.  
-  🔗 [GitHub Repo](https://github.com/ewceniza9009/Dev2ndBrain)
+### 📹 iVA (Intelligent Video Analysis)
 
-- 📦 **Warehouse Management System** — Cold storage item tracking with **NextJS, MongoDB, Node.js**.
+An AI-driven service that transforms raw video feeds into **structured, actionable data**. Moving beyond simple surveillance, iVA aims to provide contextual understanding by detecting objects, reading text (OCR), and identifying patterns, enabling applications in retail analytics, industrial automation, and smart security.  
+🔗 [GitHub Repo](https://github.com/ewceniza9009/iVA)
+
+### 🧠 Dev2ndBrain
+
+A personalized knowledge management system or "Second Brain" built specifically for developers. The goal is to create a central hub for organizing code snippets, architectural notes, terminal commands, and technical documentation, helping to combat information overload and accelerate project development.  
+🔗 [GitHub Repo](https://github.com/ewceniza9009/Dev2ndBrain)
+
+### 📦 Warehouse Management System
+
+A specialized WMS focused on the unique challenges of **cold storage logistics**. This project tackles critical requirements like temperature monitoring, batch and expiry date tracking (FEFO), and precise item location management to minimize spoilage and optimize warehouse throughput, using a fast, modern web stack.
 
 ---
 
