@@ -72,6 +72,8 @@ Drobble is a modern, scalable e-commerce platform designed for flexibility and p
 The frontend is a React 19+ SPA, powered by Vite, TypeScript, Tailwind CSS, and Redux Toolkit, delivering a responsive, accessible, and PWA-enabled user experience with seamless API integration via TanStack Query (For future).
 Fully containerized with Docker and optimized for Kubernetes deployment, Drobble ensures reliability with clean architecture, CQRS, OpenTelemetry for observability, and robust security (JWT Authentication and rate limiting). Perfect for developers seeking a production-ready e-commerce solution.
 
+🔗 [GitHub Repo](https://github.com/ewceniza9009/drobble)
+
 ### 📹 gstream
 
 A high-performance, scalable video streaming backend designed for **low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
