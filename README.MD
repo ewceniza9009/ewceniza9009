@@ -66,7 +66,7 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 ## 🚀 Emerging Initiatives
 
-### drobble
+### 🛒drobble
 
 Drobble is a modern, scalable e-commerce platform designed for flexibility and performance, leveraging a microservices architecture built with ASP.NET Core (.NET 8/9+). It features modular services for Product Catalog (MongoDB with change streams), User Management (PostgreSQL with MFA support), Shopping Cart, Order Management, Payments (PayPal, GCash, Maya), Search & Discovery (Elasticsearch), and Reviews & Ratings, all orchestrated through an Ocelot API Gateway and RabbitMQ for event-driven communication.
 The frontend is a React 19+ SPA, powered by Vite, TypeScript, Tailwind CSS, and Redux Toolkit, delivering a responsive, accessible, and PWA-enabled user experience with seamless API integration via TanStack Query (For future).
