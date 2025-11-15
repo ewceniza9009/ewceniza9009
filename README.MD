@@ -66,6 +66,14 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 ## 🚀 Emerging Initiatives
 
+### 📦 CloudPallet - Warehouse Management System (Cold Storage)
+
+A specialized WMS focused on the unique challenges of **cold storage logistics**. This project tackles critical requirements like temperature monitoring, batch and expiry date tracking (FEFO), and precise item location management to minimize spoilage and optimize warehouse throughput, using a fast, modern web stack.
+
+**Tech Stack:** AsP.NET Core, .NET 9 + Angular 20 + TypeScript + TailWind CSS, SQL Server, Redis, SignalR
+
+🔗 [GitHub Repo](https://github.com/ewceniza9009/cloudpallet)
+
 ### 🛒 drobble
 
 Drobble is a modern, scalable e-commerce platform designed for flexibility and performance, leveraging a microservices architecture built with ASP.NET Core (.NET 8/9+). It features modular services for Product Catalog (MongoDB with change streams), User Management (PostgreSQL with MFA support), Shopping Cart, Order Management, Payments (PayPal, GCash, Maya), Search & Discovery (Elasticsearch), and Reviews & Ratings, all orchestrated through an Ocelot API Gateway and RabbitMQ for event-driven communication.
@@ -97,12 +105,6 @@ A personalized knowledge management system or "Second Brain" built specifically 
 **Tech Stack:** ASP.NET Core, OctoKit(For Github Gist), Roslyn(For C# SandBox), React + Vite + TypeScript + Tailwind CSS, Babel(For React TSX SandBox), Monaco(For Notes and Snippets Editor), React-Flow(For Graphs), MiniSearch, DexieJS, Zustand(State Management), Electron, Docker(Development Testing)
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/Dev2ndBrain)
-
-### 📦 Warehouse Management System
-
-A specialized WMS focused on the unique challenges of **cold storage logistics**. This project tackles critical requirements like temperature monitoring, batch and expiry date tracking (FEFO), and precise item location management to minimize spoilage and optimize warehouse throughput, using a fast, modern web stack.
-
-**Tech Stack:** React + NextJS + TypeScript + TailWind CSS, ShadCN, MongoDB
 
 ---
 
