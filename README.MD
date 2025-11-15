@@ -66,7 +66,7 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 ## 🚀 Emerging Initiatives
 
-### 📦 CloudPallet - Warehouse Management System (Cold Storage)
+### 📦 CloudPallet - Warehouse Management System (Cold Storage) Saas
 
 A specialized WMS focused on the unique challenges of **cold storage logistics**. This project tackles critical requirements like temperature monitoring, batch and expiry date tracking (FEFO), and precise item location management to minimize spoilage and optimize warehouse throughput, using a fast, modern web stack.
 
@@ -74,7 +74,7 @@ A specialized WMS focused on the unique challenges of **cold storage logistics**
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/cloudpallet)
 
-### 🛒 drobble
+### 🛒 drobble - Ecommerce Saas 
 
 Drobble is a modern, scalable e-commerce platform designed for flexibility and performance, leveraging a microservices architecture built with ASP.NET Core (.NET 8/9+). It features modular services for Product Catalog (MongoDB with change streams), User Management (PostgreSQL with MFA support), Shopping Cart, Order Management, Payments (PayPal, GCash, Maya), Search & Discovery (Elasticsearch), and Reviews & Ratings, all orchestrated through an Ocelot API Gateway and RabbitMQ for event-driven communication.
 The frontend is a React 19+ SPA, powered by Vite, TypeScript, Tailwind CSS, and Redux Toolkit, delivering a responsive, accessible, and PWA-enabled user experience with seamless API integration via TanStack Query (For future).
@@ -82,7 +82,7 @@ Fully containerized with Docker and optimized for Kubernetes deployment, Drobble
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/drobble)
 
-### 📹 gstream
+### 📹 gstream - Video Streaming
 
 A high-performance, scalable video streaming backend designed for **low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
 
@@ -98,7 +98,7 @@ An AI-driven service that transforms raw video feeds into **structured, actionab
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/iVA)
 
-### 🧠 Dev2ndBrain
+### 🧠 Dev2ndBrain - Development Tools
 
 A personalized knowledge management system or "Second Brain" built specifically for developers. The goal is to create a central hub for organizing code snippets, architectural notes, terminal commands, and technical documentation, helping to combat information overload and accelerate project development.  
 
