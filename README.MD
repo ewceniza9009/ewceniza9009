@@ -66,11 +66,22 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F\
 
 ## 🚀 Emerging Initiatives
 
-### 📦 CloudPallet - Warehouse Management System (Cold Storage) Saas
+### 📦 CloudPallet - 3PL Cold Storage WMS (SaaS)
 
-A specialized WMS focused on the unique challenges of **cold storage logistics**. This project tackles critical requirements like temperature monitoring, batch and expiry date tracking (FEFO), and precise item location management to minimize spoilage and optimize warehouse throughput, using a fast, modern web stack.
+A specialized Warehouse Management System (WMS) built for the unique complexities of **Third-Party Logistics (3PL) cold storage**. This project tackles critical requirements like real-time temperature monitoring, perishable lot/batch tracking (FEFO), and precise, hierarchical location management (Warehouse > Room > Bay > Row > Column > Level).
 
-**Tech Stack:** AsP.NET Core, .NET 9 + Angular 20 + TypeScript + TailWind CSS, SQL Server, Redis, SignalR
+Beyond simple tracking, CloudPallet provides a robust, **event-driven 3PL billing engine** to automatically calculate client charges for storage (tiered by temperature), handling, and value-added services (like blasting, kitting, and fumigation). It features automated receiving with scale integration, on-the-fly SSCC pallet barcode generation, and barcode-enforced picking/shipping workflows to minimize errors.
+
+The system is built on a modern, decoupled architecture using **Domain-Driven Design (DDD)**, **CQRS**, and Clean Architecture principles for high scalability. It also includes comprehensive **Role-Based Access Control (RBAC)** (with Admin, Operator, and Finance roles) and uses **SignalR** for live dashboards tracking dock status and room temperatures.
+
+**Tech Stack:**
+* **Backend:** ASP.NET Core 9, EF Core 9, & SQL Server
+* **Frontend:** Angular 20 & Angular Material
+* **Architecture:** MediatR (for CQRS), AutoMapper
+* **Performance:** StackExchangeRedis (Caching)
+* **Real-time:** SignalR (Live Dashboards & Notifications)
+* **Reporting:** QuestPDF (PDF Invoice/Report Generation)
+* **Security:** JWT & ASP.NET Core Identity (RBAC)
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/cloudpallet)
 
