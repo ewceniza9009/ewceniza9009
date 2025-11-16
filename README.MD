@@ -75,6 +75,7 @@ Beyond simple tracking, CloudPallet provides a robust, **event-driven 3PL billin
 The system is built on a modern, decoupled architecture using **Domain-Driven Design (DDD)**, **CQRS**, and Clean Architecture principles for high scalability. It also includes comprehensive **Role-Based Access Control (RBAC)** (with Admin, Operator, and Finance roles) and uses **SignalR** for live dashboards tracking dock status and room temperatures.
 
 **Tech Stack:**
+
 * **Backend:** ASP.NET Core 9, EF Core 9, & SQL Server
 * **Frontend:** Angular 20 & Angular Material
 * **Architecture:** MediatR (for CQRS), AutoMapper
@@ -85,11 +86,47 @@ The system is built on a modern, decoupled architecture using **Domain-Driven De
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/cloudpallet)
 
-### 🛒 drobble - Ecommerce Saas 
+### 🛒 drobble - Ecommerce (SaaS) 
 
-Drobble is a modern, scalable e-commerce platform designed for flexibility and performance, leveraging a microservices architecture built with ASP.NET Core (.NET 8/9+). It features modular services for Product Catalog (MongoDB with change streams), User Management (PostgreSQL with MFA support), Shopping Cart, Order Management, Payments (PayPal, GCash, Maya), Search & Discovery (Elasticsearch), and Reviews & Ratings, all orchestrated through an Ocelot API Gateway and RabbitMQ for event-driven communication.
-The frontend is a React 19+ SPA, powered by Vite, TypeScript, Tailwind CSS, and Redux Toolkit, delivering a responsive, accessible, and PWA-enabled user experience with seamless API integration via TanStack Query (For future).
-Fully containerized with Docker and optimized for Kubernetes deployment, Drobble ensures reliability with clean architecture, CQRS, OpenTelemetry for observability, and robust security (JWT Authentication and rate limiting). Perfect for developers seeking a production-ready e-commerce solution.
+Drobble is a modern, scalable e-commerce platform leveraging a microservices architecture built with **ASP.NET Core (.NET 8/9+)**. It features modular services including a **Product Catalog** (MongoDB with change streams), **User Management** (PostgreSQL with MFA support), **Order Management** (PostgreSQL), **Payment** (Stripe, PayPal, Apple Pay), **Search** (Elasticsearch), and **Reviews** (MongoDB with moderation). These services are orchestrated via an **Ocelot API Gateway** and use **RabbitMQ** for event-driven communication.
+
+The frontend is a **React 19+ SPA** (PWA-enabled), built with Vite, TypeScript, and Tailwind CSS. Global state is managed by **Redux Toolkit**, with **RTK Query** handling all API data fetching, caching, and invalidation.
+
+Fully containerized with **Docker** and optimized for Kubernetes deployment, the platform adheres to **Clean Architecture** and **CQRS** patterns. It ensures reliability with robust security (JWT, rate limiting, OWASP compliance) and production-grade observability via OpenTelemetry. This project serves as a comprehensive, production-ready blueprint for a high-performance e-commerce solution.
+
+**Tech Stack:**
+
+#### Backend
+* **Framework:** ASP.NET Core (targeting .NET 8/9+)
+* **Architecture:** Microservices, Domain-Driven Design (DDD), Clean Architecture, and CQRS (using MediatR)
+* **API Gateway:** Ocelot
+* **Asynchronous Communication:** RabbitMQ, likely using MassTransit
+* **Authentication:** JWT (JSON Web Tokens)
+* **Validation:** FluentValidation
+* **Observability:** OpenTelemetry, Serilog (for structured logging)
+* **Resiliency:** Polly (for retries and circuit breakers)
+* **API Documentation:** Swashbuckle (Swagger)
+
+#### Frontend (react-spa)
+* **Framework/Library:** React (`^18.3.1`)
+* **Build Tool:** Vite
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **State Management:** Redux Toolkit (`^2.2.5`)
+* **Data Fetching:** RTK Query (via `@reduxjs/toolkit`)
+* **Routing:** React Router (`^6.23.1`)
+* **HTTP Client:** Axios (`^1.7.2`)
+* **UI Components:** `react-icons`, `react-slick`, `react-hot-toast`
+
+#### Databases & Infrastructure
+* **Containerization:** Docker
+* **Orchestration:** Kubernetes (planned)
+* **Databases:**
+    * PostgreSQL (v16+) (Used for User Management, Order Management, Payment)
+    * MongoDB (v7.0) (Used for Product Catalog, Shopping Cart, Reviews & Ratings)
+    * Elasticsearch (v8.14.1) (Used for Search & Discovery)
+* **Caching:** Redis (for API Gateway caching and rate limiting)
+* **Local Logging:** Seq
 
 🔗 [GitHub Repo](https://github.com/ewceniza9009/drobble)
 
@@ -132,6 +169,7 @@ A personalized knowledge management system or "Second Brain" built specifically 
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Dapper](https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
