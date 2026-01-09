@@ -204,18 +204,15 @@ A personalized knowledge management system or "Second Brain" built specifically 
 ---
 
 ## 📊 GitHub Analytics
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ewceniza9009&show_icons=true&theme=onedark&hide_border=true&count_private=true" height="165px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ewceniza9009&layout=compact&theme=onedark&hide_border=true" height="165px"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ewceniza9009&show_icons=true&theme=omni&hide_border=true&count_private=true" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ewceniza9009&layout=compact&theme=omni&hide_border=true" height="180px"/>
 </p>
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ewceniza9009&theme=onedark&hide_border=true" height="165px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ewceniza9009&theme=omni&hide_border=true" height="180px"/>
 </p>
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ewceniza9009&theme=onedark&no-frame=true&margin-w=5&margin-h=5"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=ewceniza9009&theme=omni&no-frame=true&margin-w=5&margin-h=5"/>
 </p>
 
 ---
