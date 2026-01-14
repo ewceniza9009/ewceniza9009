@@ -26,7 +26,7 @@ A comprehensive, cloud-native Human Resources and Payroll management system desi
 🔗 [GitHub Repo](https://github.com/ewceniza9009/litestaff)
 
 ### 🏢 NexPoint CRM (2026)
-An industry-grade, monolithic Customer Relationship Management system designed for scalability, security, and user cohesion. It leverages a modern technology stack to provide a comprehensive solution for managing customer interactions, sales pipelines, marketing campaigns, and support tickets.
+An industry-grade, Customer Relationship Management system designed for scalability, security, and user cohesion. It leverages a modern technology stack to provide a comprehensive solution for managing customer interactions, sales pipelines, marketing campaigns, and support tickets.
 
 * **Key Features**:
     * **Customer 360**: Comprehensive view of customer profiles, contacts, and interaction history.
