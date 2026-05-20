@@ -50,7 +50,7 @@ The system is built on a modern, decoupled architecture using **Domain-Driven De
 **Tech Stack:**
 * **Backend:** ASP.NET Core 9, EF Core 9, & SQL Server
 * **Frontend:** Angular 20 & Angular Material
-* **Architecture:** MediatR (for CQRS), AutoMapper
+* **Architecture:** MediatR (for microservices/CQRS), AutoMapper
 * **Performance:** StackExchangeRedis (Caching)
 * **Real-time:** SignalR (Live Dashboards & Notifications)
 * **Reporting:** QuestPDF (PDF Invoice/Report Generation)
@@ -142,8 +142,22 @@ A modern, cross-platform Point-of-Sale (POS) system engineered for retail and F&
 
 ## 🚀 Emerging Initiatives
 
-### 📹 gstream - Video Streaming
+### 🏥 Halkyone Clinical OS - Electronic Medical Record (EMR)
+An enterprise-grade, multi-tenant clinical operating system designed around a Triple-Portal Architecture (Clinical Main Portal, System Admin Portal, and Ionic/Capacitor Native Mobile App). Built using a .NET 9 backend adhering to Clean Architecture and CQRS patterns, it features high-density workflows with automated data projection and consistency.
 
+* **Key Features**:
+    * **Triple-Portal Operational Nerve Center**: Tailored user experiences split between a Next.js clinical workflow engine, an administrative security governance post, and an installable native PWA mobile application.
+    * **High-Performance GraphQL API**: Eliminates the N+1 problem through request-scoped batch-loading resolvers utilizing HotChocolate DataLoaders.
+    * **Transactional Outbox Indexing**: Guarantees consistency between core PostgreSQL relational tables and the distributed Elasticsearch query index via atomic event streaming.
+    * **Geospatial Intelligence Logistics**: Leverages the Haversine formula for automated clinician field routing and live coordinate tracking with privacy vectors.
+    * **Standardized Assessment Engine**: Built-in dynamic runtime generation for complex clinical forms (ESAS-R, PHQ-9, PPS) coupled with documentation accelerators and Markdown/QuestPDF report summary generation.
+
+**Tech Stack:** .NET 9, HotChocolate GraphQL, Entity Framework Core, PostgreSQL, MediatR, SignalR, Elasticsearch, Next.js 14, Apollo Client, Tailwind CSS, SurveyJS, Ionic 8, React 18, Capacitor, SQLite
+
+🌐 [Demo Site](https://emr-three-hazel.vercel.app)
+🔗 [GitHub Repo](https://github.com/ewceniza9009/emr)
+
+### 📹 gstream - Video Streaming
 A high-performance, scalable video streaming backend designed for **low-latency** delivery. This initiative explores modern real-time communication protocols to build a foundation for interactive applications like live auctions, virtual events, and remote monitoring, powered by the latest in .NET.  
 
 **Tech Stack:** ASP.NET MVC Core, EF Core, Tailwind CSS, Javascript(Front End), Redis, WebRTC, LiveKit(Docker Hosted for development), SignalR(For Live Chat), JWT Authentication 
@@ -151,7 +165,6 @@ A high-performance, scalable video streaming backend designed for **low-latency*
 🔗 [GitHub Repo](https://github.com/ewceniza9009/gstream)
 
 ### 📹 iVA (Intelligent Video Analysis)
-
 An AI-driven service that transforms raw video feeds into **structured, actionable data**. Moving beyond simple surveillance, iVA aims to provide contextual understanding by detecting objects, reading text (OCR), and identifying patterns, enabling applications in retail analytics, industrial automation, and smart security.  
 
 **Tech Stack:** ASP.NET MVC Core, EF Core, Tailwind CSS, Javascript(Front End), SignalR(For Video Bit Transmission), ONNXRuntime, OpenCVSharp, Gemini API, JWT Authentication 
@@ -159,7 +172,6 @@ An AI-driven service that transforms raw video feeds into **structured, actionab
 🔗 [GitHub Repo](https://github.com/ewceniza9009/iVA)
 
 ### 🧠 Dev2ndBrain - Development Tools
-
 A personalized knowledge management system or "Second Brain" built specifically for developers. The goal is to create a central hub for organizing code snippets, architectural notes, terminal commands, and technical documentation, helping to combat information overload and accelerate project development.  
 
 **Tech Stack:** ASP.NET Core, OctoKit(For Github Gist), Roslyn(For C# SandBox), React + Vite + TypeScript + Tailwind CSS, Babel(For React TSX SandBox), Monaco(For Notes and Snippets Editor), React-Flow(For Graphs), MiniSearch, DexieJS, Zustand(State Management), Electron, Docker(Development Testing)
